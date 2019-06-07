@@ -1,5 +1,5 @@
 declare namespace xs = "http://www.w3.org/2001/XMLSchema";
-declare option saxon:output "doctype-system=intermediate.xsd";
+declare option saxon:output "doctype-system=intermediate.dtd";
 declare option saxon:output "indent=yes";
 
 declare function local:max-string($strings as xs:anyAtomicType*) as xs:string? 
